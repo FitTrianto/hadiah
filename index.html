@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-white font-roboto">
+    <div class="flex flex-col items-center min-h-screen relative">
+      <!-- Header -->
+      <div class="w-full bg-white py-2 flex justify-center shadow-md mb-3">
+        <img alt="Balitower logo" src="logo.png" width="150" />
+      </div>
+      <div class="absolute -z-50">
+        <img alt="Balitower logo" src="bg-blue.png" class="w-full" />
+      </div>
+      <!-- Main Content -->
+      <div class="w-9/12 bg-white shadow-lg rounded-lg overflow-hidden">
+        <!-- Banner -->
+        <div class="relative">
+          <img alt="Decorative balloons" class="w-full" src="banner-text.png" />
+          <!-- <div class="bg-gradient-to-r from-orange-300 to-orange-200 p-8 rounded-lg shadow-lg">
+            <div class="flex items-center justify-between">
+              <div class="text-center">
+                <h1 class="text-2xl font-bold text-black">Selamat Anda terpilih mendapat hadiah program tahunan perusahaan.</h1>
+              </div>
+              <img alt="Decorative balloons" class="h-32" height="150" src="https://storage.googleapis.com/a1aa/image/FC6rHYef0IZxb9l1zVPPScXXsPpar3yJdiwlB8lAMtM.jpg" width="100" />
+            </div>
+          </div> -->
+        </div>
+        <!-- Form Section -->
+        <div class="p-8">
+          <p class="text-center text-lg mb-4">Untuk mendapatkan hadiah ini Anda harus melengkapi data-data dibawah ini ya</p>
+          <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <input class="border border-gray-300 p-2 rounded" placeholder="NIK" type="text" />
+            <input class="border border-gray-300 p-2 rounded" placeholder="Nama" type="text" />
+            <input class="border border-gray-300 p-2 rounded" placeholder="Email" type="email" />
+            <input class="border border-gray-300 p-2 rounded" placeholder="Office / Kantor" type="text" />
+          </form>
+          <div class="flex justify-center mt-6">
+            <button class="bg-orange-500 text-white px-6 py-2 rounded">Konfirmasi</button>
+          </div>
+        </div>
+      </div>
+      <div class="fixed bottom-0">
+        <img alt="Balitower logo" src="bg-footer-1.png" class="w-full" />
+      </div>
+    </div>
+  </body>
+</html>
